@@ -1,0 +1,161 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    color: white;
+    background: linear-gradient(to bottom, black,#423F3E )
+}
+
+.div1 {
+    margin: auto;
+    padding-top: 40px;
+}
+
+h1{
+    font-size: 71px;
+    margin: 20px auto;
+}
+
+h2{
+    padding-top: 5px;
+}
+
+.front{
+    padding: 17px;
+}
+
+.pi{
+    margin-top: 15px;
+    padding-bottom: 10px;
+}
+
+.intro{
+    width: 20%;
+    margin: auto;
+    padding: 15px;
+}
+
+.edu{
+    padding-top: 20px;
+}
+
+.edu-row{
+    margin: 10px auto 15px;
+    width: 50%;
+    padding: 5px;
+}
+
+.scl{
+    width: 10%;
+    margin-top: 0px;
+}
+
+.clg{
+    width: 10%;
+}
+
+.clg2{
+    width: 10%;
+}
+
+.bottom-container{
+    margin: 5px;
+}
+
+.contact-me{
+    margin-bottom: 3px;
+}
+
+h4{
+    padding: 3px;
+}
+
+.btn{
+    margin-bottom: 5px;
+}
+
+.footer-link{
+    padding: 2px;
+}
+
+.cr{
+    padding-top: 10px;
+}
+
+.inner{
+    padding-top: 20px;
+    padding-bottom: 7px;
+}
+
+.header{
+    text-align: center;
+}
+
+.skill-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    grid-gap: 1rem;
+    padding: 1px 80px;
+    font-size: 1.2rem;
+}
+
+.skill-box{
+    padding-top: 1px;
+    padding-bottom: 1rem;
+    cursor: pointer;
+}
+
+.skill-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.skill-img{
+    width: 90px;
+    height: 90px;
+    position: relative;
+    border-radius: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-icon{
+    width: 50px;
+}
+
+hr{
+    width: 40%;
+    border-style: solid;
+    margin: auto;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: 2px;
+    border-color: white;
+}
+
+.contact-me h2{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.contact-me h3{
+    padding-bottom: 10px;
+}
+
+a{
+    /* text-decoration: none; */
+    color: white;
+    font-size: 17px;
+}
